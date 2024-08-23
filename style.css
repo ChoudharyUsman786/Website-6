@@ -1,0 +1,230 @@
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* start Navbar */
+.navbar .container-fluid {
+  background-color: #ffff;
+}
+.navbar {
+  padding: 0 !important;
+  position: sticky !important;
+  top: 0;
+}
+.navbar .navbar-brand {
+  font-size: 28px;
+  color: #556270;
+  margin: 0px 100px;
+  font-weight: 600;
+}
+.navbar .collapse .navbar-nav .nav-item {
+  gap: 40px !important;
+  font-size: 14px;
+  padding: 0px 8px !important;
+}
+.navbar .btn {
+  color: white;
+  background-color: red;
+  font-size: 10px;
+  padding: 8px 25px;
+  margin-left: 28px;
+}
+/* Sart Hero */
+.carousel-item {
+  margin-top: 0 !important;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 400px;
+}
+.img1 {
+  background-image: url(/img/hero-carousel-1.jpg);
+}
+.img2 {
+  background-image: url(/img/hero-carousel-2.jpg);
+}
+.img3 {
+  background-image: url(/img/hero-carousel-3.jpg);
+}
+.carousel-item .slide {
+  text-align: center;
+}
+.carousel-item h3 {
+  color: #ffff;
+  margin-top: 110px;
+  font-size: 40px;
+}
+.carousel-item p {
+  color: #ffff;
+  padding: 20px 150px;
+  font-size: 10px;
+  margin-top: 8px;
+}
+.carousel-item .slide .btn {
+  font-size: 14px;
+  padding: 4px 32px;
+  color: white;
+  background-color: #d9232d;
+  border-radius: 100px;
+  transition: 0.4s;
+  border-radius: 4px solid;
+}
+
+/* section heading */
+.sec {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.section-heading h2 {
+  margin-left: 70px;
+  padding-bottom: 50px;
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.section-heading p {
+  margin-left: 70px;
+  margin-bottom: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+}
+.section-heading p::after {
+  content: "";
+  width: 130px;
+  height: 1px;
+  position: absolute;
+  background-color: #d9232d;
+  top: 50%;
+}
+/* stART About */
+.container {
+  padding-bottom: 30px;
+}
+.container li {
+  list-style: none;
+}
+.container li i {
+  color: #ef6603;
+  font-size: 16px;
+}
+.btns {
+  background-color: #d9232d;
+  color: #ffffff;
+  border: none;
+  padding: 8px 28px;
+}
+.btns i {
+  color: #ffff;
+}
+/* start to Client */
+.logo {
+  background-color: #f2f4f6;
+  height: 80px;
+}
+.logo .usman .all {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  max-width: 100%;
+}
+.logo img {
+  max-width: 50%;
+}
+
+/* start to services */
+.container {
+  margin: 12px 90px;
+}
+.infor {
+  display: flex;
+  border: 1px solid gray;
+}
+.infor .head h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.infor .head h4:hover {
+  color: #d9232d;
+  border-color: #d9232d;
+}
+.infor .head p {
+  font-size: 14px;
+}
+.infor .icon {
+  margin-right: 20px;
+  font-size: 30px;
+  color: #d9232d;
+  margin-left: 10px;
+}
+/* start portfolio */
+
+.pic {
+  margin: 10px 90px;
+  text-align: center;
+}
+.pic .img {
+  gap: 60px;
+  margin-top: 30px 0px 0px;
+  padding: 0px 10px;
+}
+/* start footer */
+.foot {
+  background-color: #444e5b;
+  height: 70vh;
+  padding: 12px 90px;
+}
+.foot p {
+  color: white;
+  font-size: 10px;
+}
+.foot h5 {
+  margin-top: 30px;
+  color: #ffff;
+  font-size: 16px;
+  padding: 0px 12px;
+}
+.foot i {
+  font-size: 18px;
+  color: gray;
+  margin: 0px 10px 0px 0px;
+}
+.foot ul {
+  color: gray;
+  font-size: 13px;
+}
+.foot ul :hover {
+  color: #d9232d;
+}
+.foot li {
+  list-style: none;
+}
+.foot input {
+  background-color: gray;
+  border: 1px solid white;
+}
+
+.foot .btn {
+  background-color: #d9232d;
+  color: #ffffff;
+  border: none;
+}
+.foot .btn :hover {
+  background-color: #d9232d;
+  color: #ffffff;
+}
+.foot .para {
+  text-align: center;
+}
+.foot hr {
+  color: rgb(168, 164, 164);
+}
+.foot span {
+  color: #d9232d;
+}
+.Subscribe {
+  display: flex;
+}
